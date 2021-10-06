@@ -1,0 +1,56 @@
+﻿@model IEnumerable<RockPaperScissors.UI.ViewModels.MoveViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="d-flex justify-content-between align-items-center">
+    <h1>Moves</h1>
+    <a class="btn btn-info" asp-action="Create"><span class="fa fa-plus-circle"></span> Create New</a>
+</div>
+
+<table class="table table-hover">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Beats)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @foreach (var beats in Model)
+                    {
+                        if (item.Id != beats.Id)
+                        {
+                            <div class="form-check-inline">
+                                <input type="checkbox" id="@item.Id*@beats.Id" class="form-check-input" @(!string.IsNullOrEmpty(item.Beats) && item.Beats.Split(",").Contains(beats.Id.ToString()) ? "checked" : "")>
+                                <label for="@item.Id*@beats.Id" class="form-check-label mr-2">
+                                    @beats.Name
+                                </label>
+                            </div>
+                        }
+                    }
+                </td>
+                <td align="right">
+                    <a class="btn btn-sm btn-warning mr-2" asp-action="Edit" asp-route-id="@item.Id"><span class="fa fa-pen"></span></a>
+                    <a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-id="@item.Id"><span class="fa fa-trash"></span></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <script src="~/js/beats.js"></script>
+}

@@ -1,0 +1,53 @@
+﻿@model RockPaperScissors.UI.ViewModels.GameViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="d-flex justify-content-between align-items-center">
+    <h1>Game started</h1>
+    <a class="btn btn-danger" asp-controller="Home" asp-action="index"><span class="fa fa-plus-circle"></span> Stop the game</a>
+</div>
+
+<vc:Summary></vc:Summary>
+
+<div class="row mt-5 gameContainer">
+    <input type="hidden" id="against" value="@Model.Against" />
+    <input type="hidden" id="moveP2LastId" value="0"/>
+
+    <div class="col-6 player1">
+        <h2>Player 1 Score: <span>0</span></h2>
+        <h3>Make your choice:</h3>
+
+        <div class="list-group mt-5">
+            @foreach (var move in Model.Moves)
+            {
+                <a id="p1-@move.Id" class="list-group-item list-group-item-action">
+                    @move.Name
+                </a>
+            }
+        </div>
+    </div>
+
+    <div class="col-6 player2">
+        <h2>Player 2 Score: <span>0</span></h2>
+        <h3>Make your choice:</h3>
+
+        <div class="list-group mt-5">
+            @foreach (var move in Model.Moves)
+            {
+                <a id="p2-@move.Id" class="list-group-item list-group-item-action @(Model.Against != RockPaperScissors.Business.Models.TypePlayer.Humain ? "disabled" : "")">
+                    @move.Name
+                </a>
+            }
+        </div>
+    </div>
+</div>
+
+<div class="alert alert-info mt-5" role="alert">
+    <span id="lastResult">Ready Go!!!</span>
+</div>
+
+@section Scripts {
+    <script src="~/js/game.js"></script>
+}

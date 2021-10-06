@@ -1,0 +1,12 @@
+D:\Equisoft\RockPaperScissors\RockPaperScissors\src\RockPaperScissors.Business\bin\Debug\netcoreapp3.1\RockPaperScissors.Business.deps.json
+D:\Equisoft\RockPaperScissors\RockPaperScissors\src\RockPaperScissors.Business\bin\Debug\netcoreapp3.1\RockPaperScissors.Business.runtimeconfig.json
+D:\Equisoft\RockPaperScissors\RockPaperScissors\src\RockPaperScissors.Business\bin\Debug\netcoreapp3.1\RockPaperScissors.Business.runtimeconfig.dev.json
+D:\Equisoft\RockPaperScissors\RockPaperScissors\src\RockPaperScissors.Business\bin\Debug\netcoreapp3.1\RockPaperScissors.Business.dll
+D:\Equisoft\RockPaperScissors\RockPaperScissors\src\RockPaperScissors.Business\bin\Debug\netcoreapp3.1\RockPaperScissors.Business.pdb
+D:\Equisoft\RockPaperScissors\RockPaperScissors\src\RockPaperScissors.Business\obj\Debug\netcoreapp3.1\RockPaperScissors.Business.csprojAssemblyReference.cache
+D:\Equisoft\RockPaperScissors\RockPaperScissors\src\RockPaperScissors.Business\obj\Debug\netcoreapp3.1\RockPaperScissors.Business.AssemblyInfoInputs.cache
+D:\Equisoft\RockPaperScissors\RockPaperScissors\src\RockPaperScissors.Business\obj\Debug\netcoreapp3.1\RockPaperScissors.Business.AssemblyInfo.cs
+D:\Equisoft\RockPaperScissors\RockPaperScissors\src\RockPaperScissors.Business\obj\Debug\netcoreapp3.1\RockPaperScissors.Business.csproj.CoreCompileInputs.cache
+D:\Equisoft\RockPaperScissors\RockPaperScissors\src\RockPaperScissors.Business\obj\Debug\netcoreapp3.1\RockPaperScissors.Business.dll
+D:\Equisoft\RockPaperScissors\RockPaperScissors\src\RockPaperScissors.Business\obj\Debug\netcoreapp3.1\RockPaperScissors.Business.pdb
+D:\Equisoft\RockPaperScissors\RockPaperScissors\src\RockPaperScissors.Business\obj\Debug\netcoreapp3.1\RockPaperScissors.Business.genruntimeconfig.cache

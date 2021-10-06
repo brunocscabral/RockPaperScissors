@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Choose your game!</h1>
+
+    <div class="list-group mt-5">
+        <a asp-controller="Game" asp-action="StartHumain" class="list-group-item list-group-item-action">
+            Humain <span class="text-danger mr-3 ml-3">Vs</span> Humain
+        </a>
+        <a asp-controller="Game" asp-action="StartBotBeatPreviousSelection" class="list-group-item list-group-item-action">
+            Humain <span class="text-danger mr-3 ml-3">Vs</span> Bot (Beat its previous selection)
+        </a>
+        <a asp-controller="Game" asp-action="StartBotRandom" class="list-group-item list-group-item-action">
+            Humain <span class="text-danger mr-3 ml-3">Vs</span> Bot (Random)
+        </a>
+    </div>
+</div>

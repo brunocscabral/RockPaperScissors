@@ -1,0 +1,12 @@
+D:\Equisoft\RockPaperScissors\RockPaperScissors\src\RockPaperScissors.Infra\bin\Debug\netcoreapp3.1\RockPaperScissors.Infra.deps.json
+D:\Equisoft\RockPaperScissors\RockPaperScissors\src\RockPaperScissors.Infra\bin\Debug\netcoreapp3.1\RockPaperScissors.Infra.dll
+D:\Equisoft\RockPaperScissors\RockPaperScissors\src\RockPaperScissors.Infra\bin\Debug\netcoreapp3.1\RockPaperScissors.Infra.pdb
+D:\Equisoft\RockPaperScissors\RockPaperScissors\src\RockPaperScissors.Infra\bin\Debug\netcoreapp3.1\RockPaperScissors.Business.dll
+D:\Equisoft\RockPaperScissors\RockPaperScissors\src\RockPaperScissors.Infra\bin\Debug\netcoreapp3.1\RockPaperScissors.Business.pdb
+D:\Equisoft\RockPaperScissors\RockPaperScissors\src\RockPaperScissors.Infra\obj\Debug\netcoreapp3.1\RockPaperScissors.Infra.csprojAssemblyReference.cache
+D:\Equisoft\RockPaperScissors\RockPaperScissors\src\RockPaperScissors.Infra\obj\Debug\netcoreapp3.1\RockPaperScissors.Infra.AssemblyInfoInputs.cache
+D:\Equisoft\RockPaperScissors\RockPaperScissors\src\RockPaperScissors.Infra\obj\Debug\netcoreapp3.1\RockPaperScissors.Infra.AssemblyInfo.cs
+D:\Equisoft\RockPaperScissors\RockPaperScissors\src\RockPaperScissors.Infra\obj\Debug\netcoreapp3.1\RockPaperScissors.Infra.csproj.CoreCompileInputs.cache
+D:\Equisoft\RockPaperScissors\RockPaperScissors\src\RockPaperScissors.Infra\obj\Debug\netcoreapp3.1\RockPaperScissors.Infra.csproj.CopyComplete
+D:\Equisoft\RockPaperScissors\RockPaperScissors\src\RockPaperScissors.Infra\obj\Debug\netcoreapp3.1\RockPaperScissors.Infra.dll
+D:\Equisoft\RockPaperScissors\RockPaperScissors\src\RockPaperScissors.Infra\obj\Debug\netcoreapp3.1\RockPaperScissors.Infra.pdb

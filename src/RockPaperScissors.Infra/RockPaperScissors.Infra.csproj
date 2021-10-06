@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20211005175351_Initial.cs" />
+    <Compile Remove="Migrations\20211005175351_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20211005194837_AddImageToMoves.cs" />
+    <Compile Remove="Migrations\20211005194837_AddImageToMoves.Designer.cs" />
+    <Compile Remove="Migrations\20211006034155_Initial.cs" />
+    <Compile Remove="Migrations\20211006034155_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20211006035817_Initialas.cs" />
+    <Compile Remove="Migrations\20211006035817_Initialas.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RockPaperScissors.Business\RockPaperScissors.Business.csproj" />
+  </ItemGroup>
+
+</Project>
